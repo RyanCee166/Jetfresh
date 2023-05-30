@@ -1,0 +1,133 @@
+:root { 
+
+    --primary-color : rgb(226, 45, 45);
+--topbar-color :rgb(51, 52, 53);
+--banner-color : #231f20;
+
+
+}
+
+
+* { 
+
+
+    margin : 0;
+    box-sizing : border-box!important;
+    border : 1px soli;
+    
+  
+}
+
+.secondtopbar img { 
+
+width : 300px;
+height : 66px;
+
+}
+
+
+
+a { 
+
+    text-decoration : none;
+    font-family : Arial, Helvetica, sans-serif;
+    padding : 5px;
+    margin-left : 1vw;
+    color : white;
+}
+
+a, h1, h2, h3, h4, h5, p { 
+
+color : white;
+font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+ Ubuntu, Cantarell, 'Open Sans',
+  'Helvetica Neue', sans-serif;
+
+
+
+}
+
+.Home { 
+
+    background-color : var(--primary-color);
+
+}
+
+
+.mobile { 
+
+    display : none;
+    background-color : red;
+    padding : 10px
+}
+
+
+
+.navflex { 
+
+
+    display : flex;
+}
+
+.quote { 
+
+    background-color : var(--primary-color);
+    margin-right : 1vw;
+    border : 1px solid;
+}
+
+
+.secondtopbar { 
+
+
+    margin : 0 6v;
+    justify-content : space-between;
+    display : flex;
+}
+
+.title { 
+
+    display : none;
+
+}
+
+
+.topbar { 
+
+    background-color : var(--topbar-color);
+    border-bottom : rgb(255, 0, 0) solid 2px;
+    padding : 5px 0;
+   
+
+}
+
+
+/* Mobile  Styles */
+
+@media all and (max-width: 630px) { 
+
+    .mobile { 
+
+        display : block;
+    }
+
+.navflex { display : none;}
+
+.quote { 
+
+    display : none;
+}
+
+.secondtopbar { 
+
+    margin : 0 10px;
+
+}
+
+.title { 
+
+    display : block;
+}
+
+
+}
